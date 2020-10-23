@@ -4,7 +4,6 @@
     background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/552980/e2f0148bc66a10e6fc9a327de8006a140f8e09b3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #ff4655;
 }
 
 #landing-page .content-wrapper {
@@ -15,10 +14,41 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #ff4655;
+    top: -20%;
+    flex-direction: column;
 }
 
 .content-wrapper main h1 {
     font-size: 76px;
     font-weight: 900;
     line-height: 70px;
+}
+
+.content-wrapper main p {
+    margin-top: 40px;
+    font-size: 35px;
+    line-height: 34px;
+}
+
+.content-wrapper .enter-app {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 240px;
+    text-align: center;
+    height: 56px;
+    border-radius: 0;
+    padding: 15px 30px;
+    color: #ff4655;
+    border: solid 2px #ff4655;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline:none;
+}
+
+.content-wrapper .enter-app:hover {
+    background-color: #ff4655;
+    color: #e1e2e3;
 }
