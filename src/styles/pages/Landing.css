@@ -1,0 +1,24 @@
+#landing-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/552980/e2f0148bc66a10e6fc9a327de8006a140f8e09b3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ff4655;
+}
+
+#landing-page .content-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-wrapper main h1 {
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
