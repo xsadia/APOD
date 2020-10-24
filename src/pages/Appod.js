@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
 import api from '../services/api';
+import { FiArrowLeft } from 'react-icons/fi';
 import '../styles/pages/Appod.css';
 
 function Appod(){
@@ -81,6 +82,9 @@ function Appod(){
         <div id="Appod">
             <div className="content-wrapper">
                 {content}
+                <Link to='/' className="backBtn" >
+                    <FiArrowLeft size={24} color="#FFF" />
+                </Link>
             </div>
         </div>
     )

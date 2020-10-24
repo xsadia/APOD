@@ -79,6 +79,32 @@
     color: #e1e2e3;
 } 
 
+.content-wrapper .backBtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    height: 65px;
+    margin-left: 30px;
+  
+    border: 0;
+  
+    background: #ff4655;
+    border-radius: 16px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.2s;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper .backBtn:hover {
+    background: #b8303b;
+}
+
 input[type="number"] {
     -webkit-appearance: textfield;
        -moz-appearance: textfield;
